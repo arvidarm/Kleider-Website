@@ -1,0 +1,72 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+nav ul li {
+	margin-right: 20px;
+}
+
+nav ul li a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+main {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.produkte {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	grid-gap: 20px;
+}
+
+.produkte article {
+	border: 1px solid #ccc;
+	padding: 10px;
+	text-align: center;
+}
+
+.produkte article img {
+	max-width: 100%;
+	height: auto;
+}
+
+.produkte article h3 {
+	margin-top: 10px;
+	font-size: 24px;
+}
+
+.produkte article p {
+	margin-top: 10px;
+	font-size: 18px;
+}
+
+.produkte article button {
+	margin-top: 10px;
+	padding: 10px;
+	background-color: #333;
+	color: #fff;
+	border: none;
+	cursor:
