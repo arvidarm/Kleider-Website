@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kleider-Website</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>Kleider-Website</h1>
+		<nav>
+			<ul>
+				<li><a href="index.html">Startseite</a></li>
+				<li><a href="produkte.html">Produkte</a></li>
+				<li><a href="warenkorb.html">Warenkorb</a></li>
+				<li><a href="kontakt.html">Kontakt</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<h2>Beliebte Produkte</h2>
+		<section class="produkte">
+			<article>
+				<img src="produkt1.jpg">
+				<h3>Produkt 1</h3>
+				<p>Preis: $50</p>
+				<button>In den Warenkorb legen</button>
+			</article>
+			<article>
+				<img src="produkt2.jpg">
+				<h3>Produkt 2</h3>
+				<p>Preis: $75</p>
+				<button>In den Warenkorb legen</button>
+			</article>
+			<article>
+				<img src="produkt3.jpg">
+				<h3>Produkt 3</h3>
+				<p>Preis: $100</p>
+				<button>In den Warenkorb legen</button>
+			</article>
+		</section>
+	</main>
+	<footer>
+		<p>&copy; 2023 Kleider-Website</p>
+	</footer>
+</body>
+</html>
